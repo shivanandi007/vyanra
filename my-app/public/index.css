@@ -1,0 +1,39 @@
+h{
+    text-align: center;
+    font-size: 40px;
+    justify-content: center;
+    margin-left: 490px;
+}
+.logo-image{
+    width: 100px;
+    height: 100px;
+  
+    overflow: hidden;
+    margin-right: 550px;
+    size: 30px;
+    margin-bottom:30px ;
+ 
+}
+.fa{
+    margin-right: 300px;
+    width: 100px;
+}
+.navbar-brand{
+    margin-right: 300px;
+    
+    
+}
+@media screen and (max-width: 600px) {
+   h{
+       font-size: 15px;
+       margin-left: 50px;
+   }
+   .navbar-brand{
+ 
+    max-width: 90%;
+    display: block;
+   }
+   .fa{
+       margin-left: 40px;
+   }
+  }
